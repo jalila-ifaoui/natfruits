@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+} 
+ header{
+    background-color:#f0f0f0 ;
+      display: flex;
+      justify-content:space-between;
+      align-items:center ;
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+      padding: 10px;
+      
+        
+ }
+ .logo{
+   text-decoration: none;
+   color: rgba(3, 69, 3, 0.832);
+   font-size: 20px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   margin-left: 30px;
+ 
+ }
+ .navbar a{
+   color: rgba(3, 69, 3, 0.832);
+   text-decoration: none;
+   font-size: 15px;
+   font-weight: 500;
+ margin-right: 30px;
+ font-family: sans-serif;
+ }
+  .navbar a:hover{
+   color: blueviolet;
+  }
+   
+
+
+ 
+ .container{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  padding: 50px;
+  width: 100%;
+
+ }
+ 
+ .container .products{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+ }
+ .container img{
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   width: 100%;
+   height: 800px;
+ }
+
+  .container .products h3{
+   color: chocolate;
+  }
+.products button{
+   color:white;
+   background-color: chocolate;
+   font-size: 10px;
+   font-weight: 600;
+   text-transform: uppercase;
+   padding: 10px 20px;
+   border-radius: 15px;
+   letter-spacing: 1px;
+   border: none;
+   margin-bottom: 40px;
+   transition: 1s;
+
+}
+.products button:hover{
+   background-color: rgb(251, 115, 19);
+   transform: scale(1.1)
+}
+
+
